@@ -4,7 +4,7 @@
   "description": "An in memory store for backside",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "PERSISTOR=backside-memory-store mocha node_modules/backside-api/test/lib/BacksidePersistence"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   },
   "dependencies": {
     "collections": "~1.1.0"
+  },
+  "devDependencies": {
+    "backside-api": "*"
   }
 }
