@@ -1,0 +1,25 @@
+{
+  "name": "backside-memory-store",
+  "version": "0.0.0",
+  "description": "An in memory store for backside",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/addisonj/backside-memory-store.git"
+  },
+  "keywords": [
+    "backside",
+    "backside-store"
+  ],
+  "author": "addisonj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addisonj/backside-memory-store/issues"
+  },
+  "dependencies": {
+    "collections": "~1.1.0"
+  }
+}
