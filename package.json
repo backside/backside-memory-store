@@ -1,6 +1,6 @@
 {
   "name": "backside-memory-store",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An in memory store for backside",
   "main": "index.js",
   "scripts": {
