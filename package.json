@@ -14,7 +14,10 @@
     "backside",
     "backside-store"
   ],
-  "author": "addisonj",
+  "author": "Trevor Dixon",
+  "contributors": [
+    "addisonj"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/addisonj/backside-memory-store/issues"
